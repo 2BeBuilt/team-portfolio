@@ -6,7 +6,7 @@ import PagePart from '../Common/PagePart'
 
 export default function Links(props: { id: string }) {
   return (
-    <PagePart id={props.id}>
+    <PagePart id={props.id} spacing={12}>
       <Heading>Links</Heading>
       <HStack align={'center'} justify={'center'} spacing={5}>
         {socials.map((social, i) => (
