@@ -1,11 +1,4 @@
-import {
-  Avatar,
-  useDisclosure,
-  Stack,
-  Text,
-  HStack,
-  Heading,
-} from '@chakra-ui/react'
+import { Avatar, Stack, Text, HStack, Heading } from '@chakra-ui/react'
 
 import SocialLogo from '../Common/SocialLogo'
 import Profile from '@/interfaces/profile.dto'
@@ -27,7 +20,7 @@ export default function Profile(props: { profile: Profile }) {
           {props.profile.title}
         </Text>
       </Stack>
-      <Stack spacing={6} px={2}>
+      <Stack spacing={6}>
         <Text maxW={400}>{props.profile.summary}</Text>
         <HStack align={'center'} justify={'center'} spacing={2.5}>
           {props.profile.socials.map((social, i) => (

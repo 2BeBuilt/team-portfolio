@@ -1,12 +1,4 @@
-import {
-  Center,
-  Box,
-  Flex,
-  Avatar,
-  Stack,
-  Heading,
-  Text,
-} from '@chakra-ui/react'
+import { Box, Flex, Avatar, Stack, Heading, Text } from '@chakra-ui/react'
 
 import Hackathon from '@/interfaces/hack.dto'
 
@@ -16,7 +8,6 @@ export default function Hackathon(props: { hack: Hackathon }) {
       rounded={'lg'}
       overflow={'hidden'}
       userSelect={'none'}
-      pt={10}
       justifyContent={'start'}
     >
       <Flex justify={'center'} align={'center'} mb={5}>

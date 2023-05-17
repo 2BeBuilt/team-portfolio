@@ -1,5 +1,4 @@
 import Prize from './prize.dto'
-import Social from './social.dto'
 
 export default interface Hackathon {
   name: string

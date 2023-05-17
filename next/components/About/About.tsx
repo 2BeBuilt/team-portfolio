@@ -1,12 +1,14 @@
-import { Stack, Heading, Text, Center } from '@chakra-ui/react'
+import { Stack, Heading, Text } from '@chakra-ui/react'
+
+import PagePart from '../Common/PagePart'
 
 export default function About(props: { id: string }) {
   return (
-    <Stack id={props.id} pt={36} align={'center'} justify={'center'}>
+    <PagePart id={props.id}>
       <Heading>2BeBuilt</Heading>
       <Stack spacing={12}>
         <Text>"We be buildin"</Text>
-        <Stack spacing={3} textAlign={'center'} px={2}>
+        <Stack spacing={3} textAlign={'center'}>
           <Text maxW={600}>
             Our team's journey began unexpectedly at a hackathon, where a
             diverse group of individuals with a shared passion for changing the
@@ -36,6 +38,6 @@ export default function About(props: { id: string }) {
           </Text>
         </Stack>
       </Stack>
-    </Stack>
+    </PagePart>
   )
 }

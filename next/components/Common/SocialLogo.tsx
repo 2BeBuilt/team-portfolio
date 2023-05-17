@@ -14,6 +14,7 @@ export default function SocialLogo(props: {
           bgColor={'#cad5e1'}
           target={'_blank'}
           network={props.network}
+          style={{ width: 40, height: 40 }}
         />
       </Center>
     </Tooltip>
