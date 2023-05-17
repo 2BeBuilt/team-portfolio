@@ -2,7 +2,7 @@ import { Stack, Heading, Text, Center } from '@chakra-ui/react'
 
 export default function About(props: { id: string }) {
   return (
-    <Stack id={props.id} pt={36}>
+    <Stack id={props.id} pt={36} align={'center'} justify={'center'}>
       <Heading>2BeBuilt</Heading>
       <Stack spacing={12}>
         <Text>"We be buildin"</Text>

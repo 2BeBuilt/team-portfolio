@@ -1,5 +1,5 @@
 import { Center, Flex, HStack, Heading } from '@chakra-ui/react'
-import { links } from '@/utils/links'
+import { links } from '@/utils/constants/links'
 
 import LinkScroll from '@/components/Common/LinkScroll'
 
@@ -19,13 +19,14 @@ export default function Navbar() {
       backgroundImage="linear-gradient(to top, gray.700 0%, gray.900 100%)"
     >
       <HStack spacing={{ base: 5, md: 12 }}>
-        {links.map((link) => (
-          <LinkScroll to={link}>
+        {links.map((link, i) => (
+          <LinkScroll key={i} to={link}>
             <Heading
               py={8}
               zIndex={20}
               textTransform={'capitalize'}
-              fontSize={{ base: '2xs', md: 'xl' }}
+              fontSize={{ base: 'xs', md: 'lg' }}
+              cursor={'pointer'}
               _hover={{
                 transform: 'translateY(-4px)',
                 fontStyle: 'bold',

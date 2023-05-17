@@ -8,14 +8,22 @@ import {
   HStack,
   Container,
 } from '@chakra-ui/react'
-import { SocialIcon } from 'react-social-icons'
+
+import SocialLogo from '../Common/SocialLogo'
 
 const socials = [
-  'https://github.com',
-  'https://twitter.com',
-  'https://facebook.com',
-  'https://instagram.com',
-  'https://agruz.dev',
+  {
+    network: 'sharethis',
+    url: 'https://ethglobal.com/showcase/timepact-1mof1',
+  },
+  {
+    network: 'github',
+    url: 'https://github.com/Canvinus/TimePact',
+  },
+  {
+    network: 'sharethis',
+    url: 'https://timepact.xyz',
+  },
 ]
 
 export default function Profile(props: { name: string; img: string }) {
@@ -39,8 +47,8 @@ export default function Profile(props: { name: string; img: string }) {
               sunt autem ea recusandae!
             </Text>
             <HStack align={'center'} justify={'center'} spacing={2.5}>
-              {socials.map((social) => (
-                <SocialIcon url={social} bgColor={'#cad5e1'} />
+              {socials.map((social, i) => (
+                <SocialLogo key={i} network={social.network} url={social.url} />
               ))}
             </HStack>
           </Stack>

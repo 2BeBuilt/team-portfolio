@@ -14,7 +14,7 @@ export default function Home() {
         <Stack spacing={'100px'}>
           <About id={'about'} />
           <Team id={'team'} />
-          <Projects id={'projects'} />
+          <Projects id={'projs'} />
         </Stack>
       </Center>
     </>

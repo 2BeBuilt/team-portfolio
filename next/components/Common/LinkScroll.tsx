@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll'
-import { Flex } from '@chakra-ui/react'
+import { Container, Flex } from '@chakra-ui/react'
 import { ReactNode } from 'react'
 
 export default function LinkScroll(props: { to: string; children: ReactNode }) {
@@ -11,9 +11,7 @@ export default function LinkScroll(props: { to: string; children: ReactNode }) {
       spy={true}
       duration={1000}
     >
-      <Flex as={'a'} cursor="pointer">
-        {props.children}
-      </Flex>
+      {props.children}
     </Link>
   )
 }
