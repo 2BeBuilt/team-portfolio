@@ -31,8 +31,8 @@ export default function Hackathon(props: { hack: Hackathon }) {
         </Stack>
         <Heading fontSize={'md'}>{props.hack.project}</Heading>
         <Stack spacing={12}>
-          {props.hack.prizes.map((prize) => (
-            <Stack spacing={5} justify={'center'} align={'center'}>
+          {props.hack.prizes.map((prize, i) => (
+            <Stack key={i} spacing={5} justify={'center'} align={'center'}>
               <Stack>
                 <Heading fontSize={'2xs'}>{prize.sponsor.name}</Heading>
                 <Avatar src={prize.sponsor.logo} />
