@@ -4,7 +4,7 @@ const hacks: Hackathon[] = [
   {
     name: 'Harvard Blockchain x EasyA Hackathon',
     logo: 'https://pbs.twimg.com/profile_images/1655494003935019008/aHyxX6iG_400x400.jpg',
-    date: '31 Mar - 2 Alril 2023',
+    date: '31 March - 2 April 2023',
     project: 'Warp Drive',
     prizes: [
       {
@@ -19,7 +19,7 @@ const hacks: Hackathon[] = [
   {
     name: 'ETHGLobal Scaling Ethereum 2023',
     logo: 'https://storage.googleapis.com/ethglobal-api-production/events%2Fof2r2%2Flogo%2F1671503482706_scaling-ethereum-square-logo.svg',
-    date: 'March 10 – 31, 2023',
+    date: '10 - 31 March 2023',
     project: 'TimePact',
     prizes: [
       {

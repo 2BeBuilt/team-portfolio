@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <PageHead title={'2BeBuilt'} />
-      <Center textAlign={'center'} pb={1000} userSelect={'none'}>
+      <Center textAlign={'center'} pb={100} userSelect={'none'}>
         <Stack spacing={'100px'}>
           <About id={'about'} />
           <Team id={'team'} />

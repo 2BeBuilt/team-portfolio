@@ -13,8 +13,8 @@ export default function About(props: { id: string }) {
             world came together. Fueled by our collective desire to make a
             difference, we are driven to create groundbreaking projects that
             will serve as the driving force behind the future of the web3 space.
-          </Text>
-          <Text maxW={600}>
+            <br />
+            <br />
             While the web3 and blockchain industry is still relatively young, we
             firmly believe in its immense potential for growth and
             transformation. Reflecting on history, it is fascinating to consider
@@ -24,8 +24,8 @@ export default function About(props: { id: string }) {
             transportation completely. Similarly, we view the current state of
             blockchain technology as analogous to the early days of
             automobiles—a revolutionary concept with unlimited possibilities.
-          </Text>
-          <Text maxW={600}>
+            <br />
+            <br />
             In this era of unprecedented technological advancement, the
             potential of blockchain is truly awe-inspiring, defying conventional
             bounds of what was previously deemed possible. As the 2BeBuilt team,
