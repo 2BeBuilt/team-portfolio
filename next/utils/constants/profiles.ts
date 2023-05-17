@@ -4,7 +4,9 @@ const profiles: Profile[] = [
   {
     name: 'Andrey Gruzdev',
     title: 'Fullstack Developer',
-    img: '',
+    summary:
+      'I am committed to immersing myself in the web3 space to make it a better place for the end-user. By working on projects that create a more decentralized and equitable internet, I strive to contribute to a better world. With my skills, experience, and drive to make a difference, I am confident that I can make a valuable contribution to any team or project.',
+    img: 'https://bafybeiedloskfopzcn4fdeo2huyskf2hmosd6danh4ogbc2bdqihhd3qge.ipfs.w3s.link/finish_andre.jpeg',
     socials: [
       {
         network: 'sharethis',
