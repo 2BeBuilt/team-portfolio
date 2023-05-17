@@ -18,14 +18,14 @@ export default function Navbar() {
       }}
       backgroundImage="linear-gradient(to top, gray.700 0%, gray.900 100%)"
     >
-      <HStack spacing={{ base: 5, md: 12 }}>
+      <HStack spacing={{ base: 4, md: 12 }}>
         {links.map((link, i) => (
           <LinkScroll key={i} to={link}>
             <Heading
               py={8}
               zIndex={20}
               textTransform={'capitalize'}
-              fontSize={{ base: 'xs', md: 'lg' }}
+              fontSize={{ base: '2xs', md: 'lg' }}
               cursor={'pointer'}
               _hover={{
                 transform: 'translateY(-4px)',
