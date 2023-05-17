@@ -22,21 +22,17 @@ export default function Hackathon(props: { hack: Hackathon }) {
       <Flex justify={'center'} align={'center'} mb={5}>
         <Avatar src={props.hack.logo} boxSize={44} draggable={false} />
       </Flex>
-      <Stack spacing={5} justify={'center'} align={'center'}>
-        <Stack>
-          <Heading fontSize={'md'} maxW={400}>
-            {props.hack.name}
-          </Heading>
-          <Text>{props.hack.date}</Text>
-        </Stack>
-        <Heading fontSize={'md'}>{props.hack.project}</Heading>
-        <Stack spacing={12}>
+      <Stack spacing={3} justify={'center'} align={'center'}>
+        <Heading fontSize={'md'} maxW={400}>
+          {props.hack.name}
+        </Heading>
+        <Text>{props.hack.date}</Text>
+        <Heading fontSize={'sm'}>{props.hack.project}</Heading>
+        <Stack spacing={10} justify={'center'} align={'center'}>
           {props.hack.prizes.map((prize, i) => (
-            <Stack key={i} spacing={5} justify={'center'} align={'center'}>
-              <Stack>
-                <Heading fontSize={'2xs'}>{prize.sponsor.name}</Heading>
-                <Avatar src={prize.sponsor.logo} />
-              </Stack>
+            <Stack key={i} spacing={3} justify={'center'} align={'center'}>
+              <Heading fontSize={'2xs'}>{prize.sponsor.name}</Heading>
+              <Avatar src={prize.sponsor.logo} size={'md'} />
               <Text>{prize.nomination}</Text>
             </Stack>
           ))}
