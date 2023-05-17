@@ -29,10 +29,13 @@ export default function Navbar() {
               fontSize={{ base: '2xs', md: 'lg' }}
               cursor={'pointer'}
               _hover={{
-                transform: 'translateY(-4px)',
-                fontStyle: 'bold',
-                transitionDuration: '0.2s',
-                transitionTimingFunction: 'ease-in-out',
+                md: {
+                  transform: 'translateY(-4px)',
+                  fontStyle: 'bold',
+                  transitionDuration: '0.2s',
+                  transitionTimingFunction: 'ease-in-out',
+                },
+                base: 'none',
               }}
             >
               {link}
