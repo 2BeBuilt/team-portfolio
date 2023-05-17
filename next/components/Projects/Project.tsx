@@ -10,25 +10,21 @@ import {
 } from '@chakra-ui/react'
 
 import SocialLogo from '../Common/SocialLogo'
+import Project from '@/interfaces/project.dto'
 
-export default function Project(props: {
-  name: string
-  description: string
-  img: string
-  socials: { network: string; url: string; label: string }[]
-}) {
+export default function Project(props: { project: Project }) {
   return (
     <Center>
       <Box rounded={'lg'} overflow={'hidden'} userSelect={'none'} pt={10}>
         <Flex justify={'center'} align={'center'} mb={5}>
-          <Image src={props.img} rounded={'lg'} draggable={false} />
+          <Image src={props.project.img} rounded={'lg'} draggable={false} />
         </Flex>
         <Box p={6}>
           <Stack spacing={5}>
-            <Heading>{props.name}</Heading>
-            <Text>{props.description}</Text>
+            <Heading>{props.project.name}</Heading>
+            <Text>{props.project.description}</Text>
             <HStack align={'center'} justify={'center'}>
-              {props.socials.map((social, i) => (
+              {props.project.socials.map((social, i) => (
                 <SocialLogo
                   key={i}
                   url={social.url}

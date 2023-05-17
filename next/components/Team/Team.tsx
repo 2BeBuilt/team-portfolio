@@ -1,4 +1,5 @@
 import { Stack, Heading } from '@chakra-ui/react'
+import { profiles } from '@/utils/constants/profiles'
 
 import Profile from './Profile'
 
@@ -13,8 +14,9 @@ export default function Team(props: { id: string }) {
     >
       <Heading>Team</Heading>
       <Stack spacing={12} direction={{ base: 'column', md: 'row' }}>
-        <Profile name={'Andrey Gruzdev'} img={''} />
-        <Profile name={'Andrey Gruzdev'} img={''} />
+        {profiles.map((profile, i) => (
+          <Profile key={i} profile={profile} />
+        ))}
       </Stack>
     </Stack>
   )
