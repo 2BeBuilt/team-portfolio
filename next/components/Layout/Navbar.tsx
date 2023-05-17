@@ -16,17 +16,16 @@ export default function Navbar() {
       style={{
         backdropFilter: 'blur(10px) contrast(200%)',
       }}
-      rounded={'lg'}
       backgroundImage="linear-gradient(to top, gray.700 0%, gray.900 100%)"
     >
-      <HStack spacing={12}>
+      <HStack spacing={{ base: 5, md: 12 }}>
         {links.map((link) => (
           <LinkScroll to={link}>
             <Heading
               py={8}
               zIndex={20}
               textTransform={'capitalize'}
-              fontSize={'xl'}
+              fontSize={{ base: '2xs', md: 'xl' }}
               _hover={{
                 transform: 'translateY(-4px)',
                 fontStyle: 'bold',

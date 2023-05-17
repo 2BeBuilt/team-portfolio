@@ -1,3 +1,3 @@
-const links = ['about', 'team', 'projects', 'hacks', 'links']
+const links = ['about', 'team', 'projs', 'hacks', 'links']
 
 export { links }

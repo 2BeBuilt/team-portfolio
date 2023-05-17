@@ -6,10 +6,10 @@ export default function Team(props: { id: string }) {
   return (
     <Stack id={props.id} pt={36} spacing={12}>
       <Heading>Team</Heading>
-      <HStack spacing={12}>
+      <Stack spacing={12} direction={{ base: 'column', md: 'row' }}>
         <Profile name={'Andrey Gruzdev'} img={''} />
         <Profile name={'Andrey Gruzdev'} img={''} />
-      </HStack>
+      </Stack>
     </Stack>
   )
 }
