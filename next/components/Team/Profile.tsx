@@ -19,9 +19,10 @@ export default function Profile(props: { profile: Profile }) {
     <>
       <Stack align={'center'} justify={'center'} spacing={6} width={'full'}>
         <Avatar
-          size={'2xl'}
+          boxSize={44}
           name={props.profile.name}
           src={props.profile.img}
+          draggable={false}
           onClick={onToggle}
           cursor={'pointer'}
         />

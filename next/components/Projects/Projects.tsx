@@ -11,6 +11,8 @@ export default function Projects(props: { id: string }) {
       spacing={12}
       align={'center'}
       justify={'center'}
+      pl={2}
+      pr={2}
     >
       <Heading>Projects</Heading>
       <SimpleGrid spacing={12} columns={{ base: 1, md: 3 }}>

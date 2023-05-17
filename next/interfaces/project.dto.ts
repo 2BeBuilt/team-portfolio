@@ -5,4 +5,5 @@ export default interface Project {
   description: string
   img: string
   socials: Social[]
+  screenshots?: string[]
 }
