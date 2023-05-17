@@ -39,7 +39,12 @@ export default function Profile(props: { profile: Profile }) {
             <Text maxW={400}>{props.profile.summary}</Text>
             <HStack align={'center'} justify={'center'} spacing={2.5}>
               {props.profile.socials.map((social, i) => (
-                <SocialLogo key={i} network={social.network} url={social.url} />
+                <SocialLogo
+                  key={i}
+                  network={social.network}
+                  url={social.url}
+                  label={social.label}
+                />
               ))}
             </HStack>
           </Stack>
