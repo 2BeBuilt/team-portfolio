@@ -5,6 +5,8 @@ import Navbar from '@/components/Layout/Navbar'
 import About from '@/components/About/About'
 import Team from '@/components/Team/Team'
 import Projects from '@/components/Projects/Projects'
+import Hackathons from '@/components/Hackathons/Hackathons'
+import Links from '@/components/Links/Links'
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
           <About id={'about'} />
           <Team id={'team'} />
           <Projects id={'projs'} />
+          <Hackathons id={'hacks'} />
+          <Links id={'links'} />
         </Stack>
       </Center>
     </>
