@@ -30,6 +30,30 @@ const profiles: Profile[] = [
       },
     ],
   },
+  {
+    name: 'Alexey Zenin',
+    title: 'Solidity Developer',
+    summary:
+      'Rocket scientist mutated into a sophisticated web3 degen buildr. Now only motto is: "Build it fast, build it right, keep me building. Blockchain solutions tinkerer, solidity padawan."',
+    img: 'https://bafybeie3mfvmfe2a2vsyuafbipf5en5crhhqmq3t5hkt62lfp7hu3vkoxy.ipfs.w3s.link/alexthebuildr.png',
+    socials: [
+      {
+        network: 'linkedin',
+        url: 'https://www.linkedin.com/in/alexey-zenin/',
+        label: 'LinkedIn',
+      },
+      {
+        network: 'twitter',
+        url: 'https://twitter.com/itsalexey',
+        label: 'Twitter',
+      },
+      {
+        network: 'github',
+        url: 'https://github.com/ztsalexey',
+        label: 'github',
+      },
+    ],
+  },
 ]
 
 export { profiles }

@@ -6,6 +6,7 @@ import LinkScroll from '@/components/Common/LinkScroll'
 export default function Navbar() {
   return (
     <Center
+      userSelect={'none'}
       px={24}
       textAlign={'center'}
       position={'fixed'}

@@ -7,22 +7,25 @@ export default function About(props: { id: string }) {
       <Stack spacing={12}>
         <Text>"We be buildin"</Text>
         <Text maxW={600}>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden-Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
-          1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
-          Evil) by Cicero, written in 45 BC. This book is a treatise on the
-          theory of ethics, very popular during the Renaissance. The first line
-          of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
-          section 1.10.32. The standard chunk of Lorem Ipsum used since the
-          1500s is reproduced below for those interested. Sections 1.10.32 and
-          1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
-          reproduced in their exact original form, accompanied by English
-          versions from the 1914 translation by H. Rackham.
+          Our team's journey began unexpectedly at a hackathon, where a diverse
+          group of individuals with a shared passion for changing the world came
+          together. Fueled by our collective desire to make a difference, we are
+          driven to create groundbreaking projects that will serve as the
+          driving force behind the future of the web3 space. While the web3 and
+          blockchain industry is still relatively young, we firmly believe in
+          its immense potential for growth and transformation. Reflecting on
+          history, it is fascinating to consider that just a century ago, the
+          idea of horse-keeping as a thriving business seemed unassailable. Yet
+          today, cars have become an integral part of our lives, altering our
+          perception of transportation completely. Similarly, we view the
+          current state of blockchain technology as analogous to the early days
+          of automobiles—a revolutionary concept with unlimited possibilities.
+          In this era of unprecedented technological advancement, the potential
+          of blockchain is truly awe-inspiring, defying conventional bounds of
+          what was previously deemed possible. As the 2BeBuilt team, we aspire
+          to be an integral part of shaping this remarkable web3 future. Our
+          mission is not only to contribute to its evolution but also to create
+          a future that is as beautiful as it is groundbreaking.
         </Text>
       </Stack>
     </Stack>
