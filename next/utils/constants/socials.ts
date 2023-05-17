@@ -7,7 +7,7 @@ const socials: Social[] = [
     label: 'Official Website',
   },
   {
-    network: 'sharethis',
+    network: 'github',
     url: 'https://github.com/2BeBuilt',
     label: 'Github',
   },
