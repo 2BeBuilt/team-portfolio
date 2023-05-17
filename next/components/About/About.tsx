@@ -4,10 +4,12 @@ import PagePart from '../Common/PagePart'
 
 export default function About(props: { id: string }) {
   return (
-    <PagePart id={props.id}>
-      <Heading>2BeBuilt</Heading>
-      <Stack spacing={12}>
+    <PagePart id={props.id} spacing={12}>
+      <Stack spacing={1}>
+        <Heading>2BeBuilt</Heading>
         <Text>"We be buildin"</Text>
+      </Stack>
+      <Stack spacing={12}>
         <Stack spacing={3} textAlign={'center'}>
           <Text maxW={600}>
             Our team's journey began unexpectedly at a hackathon, where a
