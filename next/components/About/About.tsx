@@ -6,7 +6,7 @@ export default function About(props: { id: string }) {
       <Heading>2BeBuilt</Heading>
       <Stack spacing={12}>
         <Text>"We be buildin"</Text>
-        <Stack spacing={3} textAlign={'start'}>
+        <Stack spacing={3} textAlign={'center'} px={2}>
           <Text maxW={600}>
             Our team's journey began unexpectedly at a hackathon, where a
             diverse group of individuals with a shared passion for changing the

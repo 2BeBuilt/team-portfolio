@@ -34,7 +34,7 @@ export default function Profile(props: { profile: Profile }) {
         </Text>
       </Stack>
       <Fade in={isOpen}>
-        <Stack spacing={6}>
+        <Stack spacing={6} px={2}>
           <Text maxW={400}>{props.profile.summary}</Text>
           <HStack align={'center'} justify={'center'} spacing={2.5}>
             {props.profile.socials.map((social, i) => (
