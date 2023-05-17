@@ -1,5 +1,4 @@
-import { Center, HStack, Heading, Stack, Text } from '@chakra-ui/react'
-import { useColorMode } from '@chakra-ui/react'
+import { Center, Stack } from '@chakra-ui/react'
 
 import PageHead from '@/components/Common/PageHead'
 import About from '@/components/About/About'
