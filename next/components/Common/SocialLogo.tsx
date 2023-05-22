@@ -8,7 +8,7 @@ export default function SocialLogo(props: {
 }) {
   return (
     <Tooltip label={props.label} rounded={'lg'}>
-      <Center>
+      <Center zIndex={20}>
         <SocialIcon
           url={props.url}
           bgColor={'#cad5e1'}

@@ -11,7 +11,7 @@ export default function Navbar() {
       textAlign={'center'}
       position={'fixed'}
       top={0}
-      zIndex={10}
+      zIndex={30}
       w={'full'}
       opacity={0.8}
       style={{

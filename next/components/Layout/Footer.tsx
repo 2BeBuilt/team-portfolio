@@ -18,6 +18,7 @@ export default function Footer() {
   return (
     <Center
       position={'fixed'}
+      zIndex={10}
       bottom={0}
       w={'full'}
       py={6}
