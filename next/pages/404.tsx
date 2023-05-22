@@ -5,7 +5,7 @@ export default function FourOuFour() {
   const router = useRouter()
 
   useEffect(() => {
-    router.replace('/')
+    router.push('/')
   }, [])
 
   return
