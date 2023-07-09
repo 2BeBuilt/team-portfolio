@@ -6,7 +6,7 @@ const profiles: Profile[] = [
     title: 'Fullstack Developer',
     summary:
       'I am committed to immersing myself in the web3 space to make it a better place for the end-user. By working on projects that create a more decentralized and equitable internet, I strive to contribute to a better world. With my skills, experience, and drive to make a difference, I am confident that I can make a valuable contribution to any team or project.',
-    img: 'https://bafybeiedloskfopzcn4fdeo2huyskf2hmosd6danh4ogbc2bdqihhd3qge.ipfs.w3s.link/finish_andre.jpeg',
+    img: 'https://ipfs.io/ipfs/bafybeiedloskfopzcn4fdeo2huyskf2hmosd6danh4ogbc2bdqihhd3qge/finish_andre.jpeg',
     socials: [
       {
         network: 'sharethis',
@@ -35,7 +35,7 @@ const profiles: Profile[] = [
     title: 'Solidity Developer',
     summary:
       'Rocket scientist mutated into a sophisticated web3 degen buildr. Now only motto is: "Build it fast, build it right, keep me building. Blockchain solutions tinkerer, solidity padawan."',
-    img: 'https://bafybeie3mfvmfe2a2vsyuafbipf5en5crhhqmq3t5hkt62lfp7hu3vkoxy.ipfs.w3s.link/alexthebuildr.png',
+    img: 'https://ipfs.io/ipfs/bafybeie3mfvmfe2a2vsyuafbipf5en5crhhqmq3t5hkt62lfp7hu3vkoxy/alexthebuildr.png',
     socials: [
       {
         network: 'linkedin',
