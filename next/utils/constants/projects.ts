@@ -14,7 +14,7 @@ const projects: Project[] = [
       {
         network: 'sharethis',
         url: 'https://sourcescan.2bb.dev',
-        label: 'MVP',
+        label: 'SourceScan',
       },
     ],
     screenshots: [],
