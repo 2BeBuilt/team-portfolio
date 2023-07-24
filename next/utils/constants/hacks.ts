@@ -2,6 +2,21 @@ import Hackathon from '@/interfaces/hack.dto'
 
 const hacks: Hackathon[] = [
   {
+    name: 'ETHGLobal Paris 2023',
+    logo: 'https://storage.googleapis.com/ethglobal-api-production/events%2Fzqd1s%2Flogo%2F1683191744558_paris_2023_square_logo.png',
+    date: 'July 21 – 23, 2023',
+    project: 'SourceScan.BOS',
+    prizes: [
+      {
+        nomination: '"Best Frontend built with BOS"',
+        sponsor: {
+          name: 'NEAR',
+          logo: 'https://storage.googleapis.com/ethglobal-api-production/organizations%2F5b69q%2Flogo%2F1666293405537_YPwdd6cd_400x400.jpeg',
+        },
+      },
+    ],
+  },
+  {
     name: 'Harvard Blockchain x EasyA Hackathon',
     logo: 'https://pbs.twimg.com/profile_images/1655494003935019008/aHyxX6iG_400x400.jpg',
     date: '31 March - 2 April 2023',
