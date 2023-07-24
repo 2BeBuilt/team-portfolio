@@ -8,7 +8,7 @@ const hacks: Hackathon[] = [
     project: 'SourceScan.BOS',
     prizes: [
       {
-        nomination: '"Best Frontend built with BOS"',
+        nomination: '"🥈 Best Frontend built with BOS"',
         sponsor: {
           name: 'NEAR',
           logo: 'https://storage.googleapis.com/ethglobal-api-production/organizations%2F5b69q%2Flogo%2F1666293405537_YPwdd6cd_400x400.jpeg',
@@ -23,7 +23,7 @@ const hacks: Hackathon[] = [
     project: 'Warp Drive',
     prizes: [
       {
-        nomination: '"1st Place"',
+        nomination: '"🥇 1st Place"',
         sponsor: {
           name: 'Axelar',
           logo: 'https://avatars.githubusercontent.com/u/67522309?s=280&v=4',
