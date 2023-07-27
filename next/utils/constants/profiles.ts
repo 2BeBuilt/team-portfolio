@@ -25,7 +25,7 @@ const profiles: Profile[] = [
       },
       {
         network: 'linkedin',
-        url: 'https://www.linkedin.com/in/andrey-gruzdev-4643a9236',
+        url: 'https://www.linkedin.com/in/canvi',
         label: 'LinkedIn',
       },
     ],
