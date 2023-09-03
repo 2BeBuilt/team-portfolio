@@ -1,11 +1,13 @@
 import { Center, Stack } from '@chakra-ui/react'
 
-import About from '@/components/About/About'
-import PageHead from '@/components/Common/PageHead'
-import Hackathons from '@/components/Hackathons/Hackathons'
-import Links from '@/components/Links/Links'
-import Projects from '@/components/Projects/Projects'
-import Team from '@/components/Team/Team'
+import dynamic from 'next/dynamic'
+
+const About = dynamic(() => import('@/components/About/About'))
+const PageHead = dynamic(() => import('@/components/Common/PageHead'))
+const Hackathons = dynamic(() => import('@/components/Hackathons/Hackathons'))
+const Links = dynamic(() => import('@/components/Links/Links'))
+const Projects = dynamic(() => import('@/components/Projects/Projects'))
+const Team = dynamic(() => import('@/components/Team/Team'))
 
 export default function Home() {
   return (

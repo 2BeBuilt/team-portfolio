@@ -1,5 +1,5 @@
-import { SocialIcon } from 'react-social-icons'
 import { Center, Tooltip } from '@chakra-ui/react'
+import { SocialIcon } from 'react-social-icons'
 
 export default function SocialLogo(props: {
   network: string

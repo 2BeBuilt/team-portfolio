@@ -1,4 +1,4 @@
-import { Stack, Heading, Text } from '@chakra-ui/react'
+import { Heading, Stack, Text } from '@chakra-ui/react'
 
 import PagePart from '../Common/PagePart'
 
