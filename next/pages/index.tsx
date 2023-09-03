@@ -1,21 +1,13 @@
 import { Center, Stack } from '@chakra-ui/react'
-import { useColorMode } from '@chakra-ui/react'
-import { useEffect } from 'react'
 
-import PageHead from '@/components/Common/PageHead'
 import About from '@/components/About/About'
-import Team from '@/components/Team/Team'
-import Projects from '@/components/Projects/Projects'
+import PageHead from '@/components/Common/PageHead'
 import Hackathons from '@/components/Hackathons/Hackathons'
 import Links from '@/components/Links/Links'
+import Projects from '@/components/Projects/Projects'
+import Team from '@/components/Team/Team'
 
 export default function Home() {
-  const { colorMode, toggleColorMode } = useColorMode()
-
-  useEffect(() => {
-    colorMode !== 'dark' && toggleColorMode()
-  }, [colorMode])
-
   return (
     <>
       <PageHead title={'2BeBuilt'} />
