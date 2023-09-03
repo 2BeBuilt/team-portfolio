@@ -9,8 +9,14 @@ const ps2p = Press_Start_2P({
 })
 
 const theme = extendTheme({
-  initialColorMode: 'dark',
-  useSystemColorMode: false,
+  styles: {
+    global: {
+      body: {
+        color: 'white',
+        bg: 'gray.800',
+      },
+    },
+  },
   fonts: {
     heading: ps2p.style.fontFamily,
     body: rubik.style.fontFamily,
