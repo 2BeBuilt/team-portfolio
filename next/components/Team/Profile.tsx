@@ -1,16 +1,17 @@
-import { Avatar, Stack, Text, HStack, Heading } from '@chakra-ui/react'
+import { HStack, Heading, Stack, Text } from '@chakra-ui/react'
 
-import SocialLogo from '../Common/SocialLogo'
 import Profile from '@/interfaces/profile.dto'
+import NextAvatar from '../Common/NextAvatar'
+import SocialLogo from '../Common/SocialLogo'
 
 export default function Profile(props: { profile: Profile }) {
   return (
     <Stack align={'center'} justify={'start'} spacing={6} width={'full'}>
-      <Avatar
-        boxSize={44}
-        name={props.profile.name}
+      <NextAvatar
         src={props.profile.img}
-        draggable={false}
+        alt={`${props.profile.name}-avatar`}
+        width={176}
+        height={176}
       />
       <Stack spacing={0.5}>
         <Heading fontWeight={'light'} fontSize={'sm'}>

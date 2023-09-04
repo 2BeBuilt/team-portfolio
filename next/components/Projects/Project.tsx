@@ -1,15 +1,8 @@
-import {
-  Box,
-  Flex,
-  Stack,
-  Heading,
-  Text,
-  HStack,
-  Avatar,
-} from '@chakra-ui/react'
+import { Box, Flex, HStack, Heading, Stack, Text } from '@chakra-ui/react'
 
-import SocialLogo from '../Common/SocialLogo'
 import Project from '@/interfaces/project.dto'
+import NextAvatar from '../Common/NextAvatar'
+import SocialLogo from '../Common/SocialLogo'
 
 export default function Project(props: { project: Project }) {
   return (
@@ -20,7 +13,12 @@ export default function Project(props: { project: Project }) {
       justifyContent={'start'}
     >
       <Flex justify={'center'} align={'center'} mb={5}>
-        <Avatar src={props.project.img} boxSize={44} draggable={false} />
+        <NextAvatar
+          src={props.project.img}
+          alt={`${props.project.name}-logo`}
+          width={176}
+          height={176}
+        />
       </Flex>
       <Stack spacing={6} justify={'center'} align={'center'}>
         <Heading fontSize={'md'}>{props.project.name}</Heading>

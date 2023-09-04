@@ -1,6 +1,7 @@
-import { Box, Flex, Avatar, Stack, Heading, Text } from '@chakra-ui/react'
+import { Box, Flex, Heading, Stack, Text } from '@chakra-ui/react'
 
 import Hackathon from '@/interfaces/hack.dto'
+import NextAvatar from '../Common/NextAvatar'
 
 export default function Hackathon(props: { hack: Hackathon }) {
   return (
@@ -11,7 +12,12 @@ export default function Hackathon(props: { hack: Hackathon }) {
       justifyContent={'start'}
     >
       <Flex justify={'center'} align={'center'} mb={5}>
-        <Avatar src={props.hack.logo} boxSize={44} draggable={false} />
+        <NextAvatar
+          src={props.hack.logo}
+          alt={`${props.hack.name}-logo`}
+          width={176}
+          height={176}
+        />
       </Flex>
       <Stack spacing={3} justify={'center'} align={'center'}>
         <Heading fontSize={'md'} maxW={400}>
@@ -23,7 +29,12 @@ export default function Hackathon(props: { hack: Hackathon }) {
           {props.hack.prizes.map((prize, i) => (
             <Stack key={i} spacing={3} justify={'center'} align={'center'}>
               <Heading fontSize={'2xs'}>{prize.sponsor.name}</Heading>
-              <Avatar src={prize.sponsor.logo} size={'md'} />
+              <NextAvatar
+                src={prize.sponsor.logo}
+                alt={`${prize.sponsor.name}-logo`}
+                width={48}
+                height={48}
+              />
               <Text>{prize.nomination}</Text>
             </Stack>
           ))}

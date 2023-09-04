@@ -6,7 +6,7 @@ const profiles: Profile[] = [
     title: 'Fullstack Developer',
     summary:
       'I am committed to immersing myself in the web3 space to make it a better place for the end-user. By working on projects that create a more decentralized and equitable internet, I strive to contribute to a better world. With my skills, experience, and drive to make a difference, I am confident that I can make a valuable contribution to any team or project.',
-    img: 'https://ipfs.io/ipfs/bafybeiedloskfopzcn4fdeo2huyskf2hmosd6danh4ogbc2bdqihhd3qge/finish_andre.jpeg',
+    img: 'https://ipfs.io/ipfs/bafybeicn54vtwge4nx4h34hx5viixbg6vrw6d7tv343w7kf24qkexgco34/finish_andre.jpeg',
     socials: [
       {
         network: 'sharethis',

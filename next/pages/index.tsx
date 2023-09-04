@@ -1,9 +1,10 @@
 import { Center, Stack } from '@chakra-ui/react'
 
+import PageHead from '@/components/Common/PageHead'
+
 import dynamic from 'next/dynamic'
 
 const About = dynamic(() => import('@/components/About/About'))
-const PageHead = dynamic(() => import('@/components/Common/PageHead'))
 const Hackathons = dynamic(() => import('@/components/Hackathons/Hackathons'))
 const Links = dynamic(() => import('@/components/Links/Links'))
 const Projects = dynamic(() => import('@/components/Projects/Projects'))
