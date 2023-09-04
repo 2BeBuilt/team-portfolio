@@ -1,11 +1,11 @@
 import { extendTheme } from '@chakra-ui/react'
 import { Press_Start_2P, Rubik } from 'next/font/google'
 
-const rubik = Rubik({ subsets: ['latin'], display: 'auto' })
+const rubik = Rubik({ subsets: ['latin'], display: 'swap' })
 const ps2p = Press_Start_2P({
   weight: '400',
   subsets: ['latin'],
-  display: 'auto',
+  display: 'swap',
 })
 
 const theme = extendTheme({
