@@ -33,6 +33,27 @@ export default function Project(props: { project: Project }) {
             />
           ))}
         </HStack>
+        {props.project.backers ? (
+          <Stack spacing={10}>
+            <Heading fontSize={'md'}>Backers</Heading>
+            {props.project.backers.map((backer, i) => (
+              <Stack
+                key={i}
+                spacing={3}
+                alignItems={'center'}
+                justifyContent={'center'}
+              >
+                <Heading fontSize={'2xs'}>{backer.name}</Heading>
+                <NextAvatar
+                  src={backer.logo}
+                  alt={`${backer.name}-logo`}
+                  width={48}
+                  height={48}
+                />
+              </Stack>
+            ))}
+          </Stack>
+        ) : null}
       </Stack>
     </Box>
   )

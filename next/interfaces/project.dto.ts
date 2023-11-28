@@ -1,3 +1,4 @@
+import Backer from './backer.dto'
 import Social from './social.dto'
 
 export default interface Project {
@@ -5,5 +6,6 @@ export default interface Project {
   description: string
   img: string
   socials: Social[]
+  backers?: Backer[]
   screenshots?: string[]
 }

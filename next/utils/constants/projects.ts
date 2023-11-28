@@ -3,18 +3,29 @@ import Project from '@/interfaces/project.dto'
 const projects: Project[] = [
   {
     name: 'SourceScan',
-    description: `SourceScan is a platform that verifies and explores smart contract source code on the NEAR blockchain. It uses IPFS for decentralized storage and NEAR's smart contract capabilities to ensure trust and transparency. Key features include WASM code mismatch check, server for reliable code compilation, and a user-friendly explorer for developers. SourceScan promotes reproducibility, security, and understanding of smart contracts on NEAR.`,
-    img: 'https://ipfs.io/ipfs/bafybeiacu7f62x6cwufheuh2ecvu3v2hfs32cjt3h4j4gsumapu2ywqtzy/NEAR-Protocol-Crypto-Logo.png',
+    description: `SourceScan is a platform for the NEAR blockchain, enhancing smart contract source code verification, viewing, and deployment. It focuses on WebAssembly (WASM) challenges, improving contract interoperability, security, and transparency. It aims to support NEAR's ecosystem by simplifying smart contract development, ensuring security, and boosting user adoption.`,
+    img: 'https://ipfs.io/ipfs/bafkreihbwe3aj2pnzoy6vaqbalps53xvq7xsqrip2t2jyt37zkj3nj4uhm',
+    backers: [
+      {
+        name: 'NEAR DevHub',
+        logo: 'https://ipfs.io/ipfs/bafkreihdmhkx7lxgeua4zp6klt3lrg2igmsvtb2bmzocne5nksfcflgjwy',
+      },
+    ],
     socials: [
       {
         network: 'sharethis',
-        url: 'https://near.social/#/devgovgigs.near/widget/gigs-board.pages.Post?id=853',
+        url: 'https://near.org/devgovgigs.near/widget/gigs-board.pages.Post?id=1565',
         label: 'Proposal',
       },
       {
         network: 'sharethis',
-        url: 'https://sourcescan.2bb.dev',
+        url: 'https://sourcescan.dev',
         label: 'SourceScan',
+      },
+      {
+        network: 'sharethis',
+        url: 'https://near.org/sourcescan.near/widget/SourceScan',
+        label: 'BOS',
       },
     ],
     screenshots: [],
