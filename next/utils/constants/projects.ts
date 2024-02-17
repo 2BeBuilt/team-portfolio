@@ -2,6 +2,29 @@ import Project from '@/interfaces/project.dto'
 
 const projects: Project[] = [
   {
+    name: 'buildr.build',
+    description: `buildr.build is the directory for everyone passionate about web3. Treat it as accessible to everyone personal advertising platform where you can promote yourself or others, share contact info, and find necessary contacts of other builders.`,
+    img: 'https://ipfs.io/ipfs/QmSrVetxXm8MbzKbnFiSGpYuYYsVhZm7VS5wDwNUAiEjCg',
+    socials: [
+      {
+        network: 'sharethis',
+        url: 'https://buildr.build',
+        label: 'Site',
+      },
+      {
+        network: 'twitter',
+        url: 'https://twitter.com/i/communities/1758601184183456077',
+        label: 'Community',
+      },
+      {
+        network: 'sharethis',
+        url: 'https://opensea.io/collection/buildr-build',
+        label: 'OpenSea',
+      },
+    ],
+    screenshots: [],
+  },
+  {
     name: 'SourceScan',
     description: `SourceScan is a platform for the NEAR blockchain, enhancing smart contract source code verification, viewing, and deployment. It focuses on WebAssembly (WASM) challenges, improving contract interoperability, security, and transparency. It aims to support NEAR's ecosystem by simplifying smart contract development, ensuring security, and boosting user adoption.`,
     img: 'https://ipfs.io/ipfs/bafkreihbwe3aj2pnzoy6vaqbalps53xvq7xsqrip2t2jyt37zkj3nj4uhm',
