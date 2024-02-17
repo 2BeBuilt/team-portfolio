@@ -35,7 +35,7 @@ const profiles: Profile[] = [
     title: 'Solidity Developer',
     summary:
       'Rocket scientist mutated into a sophisticated web3 degen buildr. Now only motto is: "Build it fast, build it right, keep me building. Blockchain solutions tinkerer, solidity padawan."',
-    img: 'https://ipfs.io/ipfs/bafybeie3mfvmfe2a2vsyuafbipf5en5crhhqmq3t5hkt62lfp7hu3vkoxy/alexthebuildr.png',
+    img: 'https://ipfs.io/ipfs/QmW6XPxZeX5WXUBfs3Vxb22bbW1jMPTXZJVdhkbrdViAW6',
     socials: [
       {
         network: 'linkedin',
