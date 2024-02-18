@@ -36,6 +36,11 @@ const projects: Project[] = [
     ],
     socials: [
       {
+        network: 'github',
+        url: 'https://github.com/sourcescan',
+        label: 'Github',
+      },
+      {
         network: 'sharethis',
         url: 'https://near.org/devgovgigs.near/widget/gigs-board.pages.Post?id=1565',
         label: 'Proposal',
