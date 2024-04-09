@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: [
+      'listen-stared-feel.quicknode-ipfs.com',
       'storage.googleapis.com',
       'ipfs.near.social',
       'pbs.twimg.com',

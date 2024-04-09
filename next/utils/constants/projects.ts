@@ -2,6 +2,19 @@ import Project from '@/interfaces/project.dto'
 
 const projects: Project[] = [
   {
+    name: 'NEP-330: Source Metadata',
+    description: `The contract source metadata represents a standardized interface designed to facilitate the auditing and inspection of source code associated with a deployed smart contract. Adoption of this standard remains discretionary; however, it is strongly advocated for developers who maintain an open-source approach to their contracts. This initiative promotes greater accountability and transparency within the ecosystem, encouraging best practices in contract development and deployment.`,
+    img: 'https://listen-stared-feel.quicknode-ipfs.com/ipfs/QmdVqJX7SHs7cMibvQc1ZKhfLGjYS9v7GptM7u4RSB8JpY',
+    socials: [
+      {
+        network: 'github',
+        url: 'https://github.com/near/neps',
+        label: 'Github',
+      },
+    ],
+    screenshots: [],
+  },
+  {
     name: 'buildr.build',
     description: `buildr.build is the directory for everyone passionate about web3. Treat it as accessible to everyone personal advertising platform where you can promote yourself or others, share contact info, and find necessary contacts of other builders.`,
     img: 'https://ipfs.io/ipfs/QmSrVetxXm8MbzKbnFiSGpYuYYsVhZm7VS5wDwNUAiEjCg',
