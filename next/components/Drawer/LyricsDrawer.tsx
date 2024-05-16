@@ -16,7 +16,7 @@ export default function LyricsDrawer(props: { children: ReactNode }) {
 
   useEffect(() => {
     const audio = new Audio('/degen-chorus.mp3')
-    audio.volume = 0.35
+    audio.volume = 0.75
     bgAudioRef.current = audio
   }, [])
 
