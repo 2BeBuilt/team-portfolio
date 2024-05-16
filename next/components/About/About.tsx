@@ -6,9 +6,9 @@ import LyricsDrawer from '../Drawer/LyricsDrawer'
 export default function About(props: { id: string }) {
   const transitionContent = keyframes`
   0% { content: '2BeBuilt'; color: white; }
-  20% { content: '2BeBuil'; color: gray; }
+  20% { content: '2BeBuil'; color: #727e91; }
   40% { content: '2BeBui'; color: white; }
-  60% { content: '2BeBu'; color: gray; }
+  60% { content: '2BeBu'; color: #727e91; }
   80% { content: '2BeB'; color: white; }
   100% { content: '2BB'; color: white; }
 `
