@@ -48,7 +48,7 @@ export default function LyricsDrawer(props: { children: ReactNode }) {
             </DrawerHeader>
             <DrawerBody>
               <Center>
-                <Text fontSize="2xl" textAlign="center" whiteSpace="pre-wrap">
+                <Text fontSize="2xl" textAlign="start" whiteSpace="pre-wrap">
                   Web3 degen, on a quest so bold,{'\n'}
                   In the land of crypto, searching for gold.{'\n'}
                   Degenerative me, lost in the thrill,{'\n'}
