@@ -42,7 +42,7 @@ export default function LyricsDrawer(props: { children: ReactNode }) {
       </Flex>
       <Drawer isOpen={isOpen} placement="bottom" onClose={onClose}>
         <DrawerOverlay>
-          <DrawerContent>
+          <DrawerContent backgroundImage="linear-gradient(to top, gray.700 0%, gray.900 100%)">
             <DrawerHeader>
               <DrawerCloseButton />
             </DrawerHeader>
