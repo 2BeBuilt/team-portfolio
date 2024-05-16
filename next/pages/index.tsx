@@ -13,7 +13,7 @@ const Team = dynamic(() => import('@/components/Team/Team'))
 export default function Home() {
   return (
     <>
-      <PageHead title={'2BeBuilt'} />
+      <PageHead title={'2BB'} />
       <Center textAlign={'center'} pb={100} userSelect={'none'}>
         <Stack spacing={'100px'}>
           <About id={'about'} />
