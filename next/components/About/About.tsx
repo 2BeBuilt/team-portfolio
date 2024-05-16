@@ -1,14 +1,28 @@
-import { Heading, Stack, Text } from '@chakra-ui/react'
+import { Heading, Stack, Text, keyframes } from '@chakra-ui/react'
 
 import PagePart from '../Common/PagePart'
 import LyricsDrawer from '../Drawer/LyricsDrawer'
 
 export default function About(props: { id: string }) {
+  const transitionContent = keyframes`
+  0% { content: '2BeBuilt'; color: white; }
+  20% { content: '2BeBuil'; color: gray; }
+  40% { content: '2BeBui'; color: white; }
+  60% { content: '2BeBu'; color: gray; }
+  80% { content: '2BeB'; color: white; }
+  100% { content: '2BB'; color: white; }
+`
   return (
     <PagePart id={props.id} spacing={12}>
       <Stack spacing={1}>
         <LyricsDrawer>
-          <Heading>2BeBuilt</Heading>
+          <Heading
+            _before={{
+              content: '"2BeBuilt"',
+              animation: `${transitionContent} 5s forwards`,
+              display: 'inline-block',
+            }}
+          ></Heading>
         </LyricsDrawer>
         <Text>"We be buildin"</Text>
       </Stack>
