@@ -1,12 +1,15 @@
 import { Heading, Stack, Text } from '@chakra-ui/react'
 
 import PagePart from '../Common/PagePart'
+import LyricsDrawer from '../Drawer/LyricsDrawer'
 
 export default function About(props: { id: string }) {
   return (
     <PagePart id={props.id} spacing={12}>
       <Stack spacing={1}>
-        <Heading>2BeBuilt</Heading>
+        <LyricsDrawer>
+          <Heading>2BeBuilt</Heading>
+        </LyricsDrawer>
         <Text>"We be buildin"</Text>
       </Stack>
       <Stack spacing={12}>
