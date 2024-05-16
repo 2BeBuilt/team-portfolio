@@ -1,8 +1,11 @@
 import {
+  Center,
   Drawer,
   DrawerBody,
   DrawerCloseButton,
   DrawerContent,
+  DrawerFooter,
+  DrawerHeader,
   DrawerOverlay,
   Flex,
   Text,
@@ -15,7 +18,7 @@ export default function LyricsDrawer(props: { children: ReactNode }) {
   const bgAudioRef = useRef<HTMLAudioElement | null>(null)
 
   useEffect(() => {
-    const audio = new Audio('/degen-chorus.mp3')
+    const audio = new Audio('/degen-chorus.wav')
     audio.volume = 0.75
     bgAudioRef.current = audio
   }, [])
@@ -40,20 +43,20 @@ export default function LyricsDrawer(props: { children: ReactNode }) {
       <Drawer isOpen={isOpen} placement="bottom" onClose={onClose}>
         <DrawerOverlay>
           <DrawerContent>
-            <DrawerCloseButton />
+            <DrawerHeader>
+              <DrawerCloseButton />
+            </DrawerHeader>
             <DrawerBody>
-              <Text
-                fontSize="2xl"
-                textAlign="center"
-                whiteSpace="pre-wrap"
-                mt={4}
-              >
-                Web3 degen, on a quest so bold,{'\n'}
-                In the land of crypto, searching for gold.{'\n'}
-                Degenerative me, lost in the thrill,{'\n'}
-                Building dreams on buildr.build.
-              </Text>
+              <Center>
+                <Text fontSize="2xl" textAlign="center" whiteSpace="pre-wrap">
+                  Web3 degen, on a quest so bold,{'\n'}
+                  In the land of crypto, searching for gold.{'\n'}
+                  Degenerative me, lost in the thrill,{'\n'}
+                  Building dreams on buildr.build.
+                </Text>
+              </Center>
             </DrawerBody>
+            <DrawerFooter></DrawerFooter>
           </DrawerContent>
         </DrawerOverlay>
       </Drawer>
