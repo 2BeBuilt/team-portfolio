@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-neo-white text-neo-black antialiased font-mono;
+    min-height: 100vh;
+  }
+  
+  /* Focus states for accessibility */
+  a:focus-visible, button:focus-visible {
+    @apply outline outline-4 outline-neo-lime outline-offset-2;
+  }
+}
+
+@layer components {
+  .brutal-box {
+    @apply bg-neo-yellow text-neo-black border-4 border-neo-black shadow-brutal;
+  }
+  
+  .brutal-box-sm {
+    @apply bg-neo-white text-neo-black border-2 border-neo-black shadow-brutal-sm;
+  }
+  
+  .brutal-box-blue {
+    @apply bg-neo-blue text-neo-white border-4 border-neo-black shadow-brutal;
+  }
+  
+  .brutal-button {
+    @apply px-4 py-2 bg-neo-lime text-neo-black font-bold border-2 border-neo-black;
+    box-shadow: 4px 4px 0 0 #000000;
+    transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
+  }
+  
+  .brutal-button:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 0 #000000;
+  }
+  
+  .brutal-button:active {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+  }
+  
+  /* Typography utilities */
+  .section-header {
+    @apply text-4xl md:text-5xl lg:text-6xl font-black;
+  }
+  
+  /* Status indicators */
+  .status-active {
+    @apply bg-neo-lime text-neo-black px-2 py-1 text-xs font-bold border border-neo-black;
+  }
+  
+  .status-completed {
+    @apply bg-neo-blue text-neo-white px-2 py-1 text-xs font-bold border border-neo-black;
+  }
+}
