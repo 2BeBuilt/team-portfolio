@@ -34,10 +34,11 @@
   .brutal-button {
     @apply px-4 py-2 bg-neo-lime text-neo-black font-bold border-2 border-neo-black;
     box-shadow: 4px 4px 0 0 #000000;
-    transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
+    transition: all 0.15s ease-out;
   }
   
   .brutal-button:hover {
+    @apply bg-neo-yellow;
     transform: translate(2px, 2px);
     box-shadow: 2px 2px 0 0 #000000;
   }

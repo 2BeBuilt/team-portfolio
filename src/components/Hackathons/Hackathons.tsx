@@ -20,7 +20,7 @@ export default function Hackathons() {
             
             return (
               <div key={index} className="group">
-                <div className="brutal-box p-6 md:p-8 group-hover:transform group-hover:-translate-x-1 group-hover:-translate-y-1 group-hover:shadow-[10px_10px_0_0_#000000] transition-all duration-150">
+                <div className="brutal-box p-6 md:p-8 group-hover:bg-neo-white group-hover:transform group-hover:-translate-x-1 group-hover:-translate-y-1 group-hover:shadow-[10px_10px_0_0_#000000] transition-all duration-150">
                   <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
                   <div className="flex-1">
                     <div className="flex items-start gap-4 mb-4">
