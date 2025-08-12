@@ -20,7 +20,7 @@ export default function Hackathons() {
             
             return (
               <div key={index} className="group">
-                <div className="brutal-box p-6 md:p-8 group-hover:bg-neo-white group-hover:transform group-hover:-translate-x-1 group-hover:-translate-y-1 group-hover:shadow-[10px_10px_0_0_#000000] transition-all duration-150">
+                <div className="brutal-box p-6 md:p-8 group-hover:transform group-hover:-translate-x-1 group-hover:-translate-y-1 group-hover:shadow-[10px_10px_0_0_#000000] transition-all duration-150">
                   <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
                   <div className="flex-1">
                     <div className="flex items-start gap-4 mb-4">
@@ -68,7 +68,7 @@ export default function Hackathons() {
                           href={social.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="brutal-button text-xs px-4 py-2 text-center"
+                          className="px-4 py-2 bg-neo-white text-neo-black font-bold border-2 border-neo-black text-xs text-center shadow-[4px_4px_0_0_#000000] hover:bg-neo-lime hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_0_#000000] transition-all duration-150"
                         >
                           {social.label}
                         </a>
