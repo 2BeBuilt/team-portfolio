@@ -8,7 +8,7 @@
   }
   
   body {
-    @apply bg-neo-white text-neo-black antialiased font-mono;
+    @apply bg-neo-gray text-neo-black antialiased font-mono;
     min-height: 100vh;
   }
   

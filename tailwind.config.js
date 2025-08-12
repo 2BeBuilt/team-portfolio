@@ -11,9 +11,11 @@ module.exports = {
         'neo-black': '#000000',
         'neo-blue': '#0080FF',
         'neo-yellow': '#F9D16A',
+        'neo-dark-yellow': '#D4A644',
         'neo-lime': '#39FF14',
         'neo-red': '#FF0000',
         'neo-white': '#FFFFFF',
+        'neo-gray': '#F0F0ED',
       },
       fontFamily: {
         'mono': ['ui-monospace', 'SFMono-Regular', 'Consolas', 'monospace'],

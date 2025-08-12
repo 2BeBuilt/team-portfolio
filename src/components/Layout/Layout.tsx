@@ -19,7 +19,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center gap-2">
-              <div className="text-3xl font-black text-neo-black bg-neo-white px-3 py-1 border-2 border-neo-black shadow-brutal-sm">2BB</div>
+              <div className="text-3xl font-black text-neo-black bg-neo-white px-3 py-1 border-2 border-neo-black">2BB</div>
               <span className="text-xs text-neo-black font-bold hidden sm:block bg-neo-lime px-2 py-1 border border-neo-black">[WE BE BUILDIN]</span>
             </Link>
             
@@ -37,7 +37,7 @@ export default function Layout({ children }: { children: ReactNode }) {
             
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="md:hidden p-2 text-neo-black hover:text-neo-blue"
+              className="md:hidden p-2 text-neo-black"
             >
               {!isMenuOpen ? (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

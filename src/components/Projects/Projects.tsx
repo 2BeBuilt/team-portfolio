@@ -14,7 +14,7 @@ export default function Projects() {
               <div className="brutal-box-sm p-6 md:p-8 group-hover:transform group-hover:-translate-x-1 group-hover:-translate-y-1 group-hover:shadow-[6px_6px_0_0_#000000] transition-all duration-150">
               <div className="flex items-start justify-between mb-3">
                 <div className="flex-1">
-                  <h3 className="text-lg font-bold mb-1 text-neo-blue">{project.name}</h3>
+                  <h3 className="text-lg font-bold mb-1 text-neo-black">{project.name}</h3>
                   {project.backers && project.backers.length > 0 && (
                     <div className="text-xs font-bold bg-neo-lime text-neo-black inline-block px-2 py-1 mt-1">
                       💰 {project.backers[0].name}

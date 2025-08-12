@@ -33,7 +33,7 @@ export default function Hackathons() {
                       )}
                       <div>
                         <h3 className="text-xl font-black">{hack.name}</h3>
-                        <p className="text-xs font-bold text-neo-blue">{hack.date}</p>
+                        <p className="text-xs font-bold text-neo-black">{hack.date}</p>
                       </div>
                     </div>
                     

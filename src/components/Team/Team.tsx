@@ -26,7 +26,7 @@ export default function Team() {
                 )}
                 
                 <h3 className="text-xl font-black mb-1">{profile.name}</h3>
-                <p className="text-sm mb-4 font-bold text-neo-blue">{profile.title}</p>
+                <p className="text-sm mb-4 font-bold text-neo-black">{profile.title}</p>
                 
                 <p className="text-xs mb-4 line-clamp-4 leading-relaxed">
                   {profile.summary}
