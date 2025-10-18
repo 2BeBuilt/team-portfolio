@@ -2,6 +2,19 @@ import Project from '@/interfaces/project.dto'
 
 const projects: Project[] = [
   {
+    name: 'BitMind',
+    description: `Deepfake detection platform built on top of Bittensor blockchain that has multiple consumer-facing applications that allows users to detect if media is AI-generated or not.`,
+    img: '/images/projects/bitmind.png',
+    socials: [
+      {
+        network: 'sharethis',
+        url: 'https://bitmind.ai',
+        label: 'BitMind',
+      },
+    ],
+    screenshots: [],
+  },
+  {
     name: 'NEP-330: Source Metadata',
     description: `The contract source metadata represents a standardized interface designed to facilitate the auditing and inspection of source code associated with a deployed smart contract. Adoption of this standard remains discretionary; however, it is strongly advocated for developers who maintain an open-source approach to their contracts. This initiative promotes greater accountability and transparency within the ecosystem, encouraging best practices in contract development and deployment.`,
     img: '/images/projects/near.png',
