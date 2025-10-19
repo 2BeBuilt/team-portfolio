@@ -60,9 +60,9 @@ export default function Hackathons() {
                     )}
                   </div>
                   
-                  {projectDetails && projectDetails.socials && (
+                  {(hack.socials || (projectDetails && projectDetails.socials)) && (
                     <div className="flex flex-col gap-2">
-                      {projectDetails.socials.slice(0, 2).map((social: any, idx: number) => (
+                      {(hack.socials || projectDetails.socials).slice(0, 2).map((social: any, idx: number) => (
                         <a
                           key={idx}
                           href={social.url}

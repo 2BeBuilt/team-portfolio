@@ -1,4 +1,5 @@
 import Prize from './prize.dto'
+import Social from './social.dto'
 
 export default interface Hackathon {
   name: string
@@ -6,4 +7,5 @@ export default interface Hackathon {
   date: string
   project: string
   prizes: Prize[]
+  socials?: Social[]
 }

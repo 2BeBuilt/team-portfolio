@@ -15,6 +15,18 @@ const hacks: Hackathon[] = [
         },
       },
     ],
+    socials: [
+      {
+        network: 'sharethis',
+        url: 'https://ethglobal.com/showcase/sourcescan-bos-dyfe9',
+        label: 'ETHGlobal',
+      },
+      {
+        network: 'github',
+        url: 'https://github.com/Canvinus/ethglobal-paris-sourcescan',
+        label: 'Github',
+      },
+    ],
   },
   {
     name: 'Harvard Blockchain x EasyA Hackathon',
@@ -28,6 +40,18 @@ const hacks: Hackathon[] = [
           name: 'Axelar',
           logo: '/axelar-logo.jpg',
         },
+      },
+    ],
+    socials: [
+      {
+        network: 'twitter',
+        url: 'https://twitter.com/easya_app/status/1642623297052618752?s=46&t=wWGh6aBdBOA2phlNMj_ZFQ',
+        label: 'EasyA',
+      },
+      {
+        network: 'github',
+        url: 'https://github.com/Canvinus/warp-drive',
+        label: 'Github',
       },
     ],
   },
@@ -50,6 +74,18 @@ const hacks: Hackathon[] = [
           name: 'Scroll',
           logo: '/scroll-logo.png',
         },
+      },
+    ],
+    socials: [
+      {
+        network: 'sharethis',
+        url: 'https://ethglobal.com/showcase/timepact-1mof1',
+        label: 'ETHGlobal',
+      },
+      {
+        network: 'github',
+        url: 'https://github.com/Canvinus/TimePact',
+        label: 'Github',
       },
     ],
   },
