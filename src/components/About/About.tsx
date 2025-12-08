@@ -12,25 +12,17 @@ export default function About() {
         <div className="brutal-box p-6 md:p-8 max-w-4xl mx-auto hover:transform hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[10px_10px_0_0_#000000] transition-all duration-150">
           <div className="space-y-4 text-sm md:text-base leading-relaxed">
             <p>
-              Our team's journey began unexpectedly at a hackathon, where a diverse group of individuals 
-              with a shared passion for changing the world came together. Fueled by our collective desire 
-              to make a difference, we are driven to create groundbreaking projects that will serve as the 
-              driving force behind the future of the web3 space.
+              It started the way most good things do—strangers at a hackathon, too stubborn to sleep,
+              too excited to stop. That weekend became a team. That team became 2BB.
             </p>
-            
+
             <p>
-              While the web3 and blockchain industry is still relatively young, we firmly believe in its 
-              immense potential for growth and transformation. Reflecting on history, it is fascinating to 
-              consider that just a century ago, the idea of horse-keeping as a thriving business seemed 
-              unassailable. Yet today, cars have become an integral part of our lives, altering our 
-              perception of transportation completely.
+              We build for web3 because we've seen this movie before. Every paradigm shift looks crazy
+              until it doesn't. Horse carriages were a trillion-dollar industry once.
             </p>
-            
+
             <p>
-              In this era of unprecedented technological advancement, the potential of blockchain is truly 
-              awe-inspiring. As the 2BB team, we aspire to be an integral part of shaping this remarkable 
-              web3 future. Our mission is not only to contribute to its evolution but also to create a 
-              future that is as beautiful as it is groundbreaking.
+              We're here to build the things people will take for granted in ten years.
             </p>
           </div>
         </div>
