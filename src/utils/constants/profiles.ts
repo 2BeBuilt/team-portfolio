@@ -19,7 +19,7 @@ const profiles: Profile[] = [
   {
     name: 'Sasha',
     tagline: 'learns faster than any LLM',
-    img: '',
+    img: '/images/team/sasha.png',
   },
 ]
 
