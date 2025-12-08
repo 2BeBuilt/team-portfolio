@@ -39,7 +39,7 @@ export default function Projects() {
               </p>
               
               <div className="flex flex-wrap gap-2">
-                {project.socials && project.socials.slice(0, 2).map((social, idx) => (
+                {project.socials && project.socials.map((social, idx) => (
                   <a
                     key={idx}
                     href={social.url}

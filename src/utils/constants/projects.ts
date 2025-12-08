@@ -3,7 +3,7 @@ import Project from '@/interfaces/project.dto'
 const projects: Project[] = [
   {
     name: 'BitMind',
-    description: `Deepfake detection platform built on top of Bittensor blockchain that has multiple consumer-facing applications that allows users to detect if media is AI-generated or not.`,
+    description: `Deepfake detection platform on Bittensor blockchain with consumer-facing apps for detecting AI-generated media.`,
     img: '/images/projects/bitmind.png',
     socials: [
       {
@@ -16,7 +16,7 @@ const projects: Project[] = [
   },
   {
     name: 'NEP-330: Source Metadata',
-    description: `The contract source metadata represents a standardized interface designed to facilitate the auditing and inspection of source code associated with a deployed smart contract. Adoption of this standard remains discretionary; however, it is strongly advocated for developers who maintain an open-source approach to their contracts. This initiative promotes greater accountability and transparency within the ecosystem, encouraging best practices in contract development and deployment.`,
+    description: `NEAR standard for contract source metadata, enabling source code verification for deployed smart contracts.`,
     img: '/images/projects/near.png',
     socials: [
       {
@@ -29,18 +29,13 @@ const projects: Project[] = [
   },
   {
     name: 'buildr.build',
-    description: `buildr.build is the directory for everyone passionate about web3. Treat it as accessible to everyone personal advertising platform where you can promote yourself or others, share contact info, and find necessary contacts of other builders.`,
+    description: `Web3 builder directory and networking platform for promoting yourself, sharing contact info, and connecting with other builders.`,
     img: '/images/projects/buildr.png',
     socials: [
       {
         network: 'sharethis',
         url: 'https://buildr.build',
-        label: 'Site',
-      },
-      {
-        network: 'twitter',
-        url: 'https://twitter.com/i/communities/1758601184183456077',
-        label: 'Community',
+        label: 'buildr.build',
       },
       {
         network: 'sharethis',
@@ -52,7 +47,7 @@ const projects: Project[] = [
   },
   {
     name: 'SourceScan',
-    description: `SourceScan is a platform for the NEAR blockchain, enhancing smart contract source code verification, viewing, and deployment. It focuses on WebAssembly (WASM) challenges, improving contract interoperability, security, and transparency. It aims to support NEAR's ecosystem by simplifying smart contract development, ensuring security, and boosting user adoption.`,
+    description: `NEAR's contract verification backbone, integrated into NEARBlocks and near-cli-rs.`,
     img: '/images/projects/sourcescan.png',
     backers: [
       {
@@ -63,51 +58,23 @@ const projects: Project[] = [
     socials: [
       {
         network: 'github',
-        url: 'https://github.com/sourcescan',
+        url: 'https://github.com/SourceScan',
         label: 'Github',
       },
       {
         network: 'sharethis',
-        url: 'https://near.org/devgovgigs.near/widget/gigs-board.pages.Post?id=1565',
-        label: 'Proposal',
+        url: 'https://nearblocks.io',
+        label: 'NEARBlocks',
       },
       {
-        network: 'sharethis',
-        url: 'https://sourcescan.dev',
-        label: 'SourceScan',
+        network: 'github',
+        url: 'https://github.com/near/near-cli-rs',
+        label: 'near-cli-rs',
       },
       {
-        network: 'sharethis',
-        url: 'https://near.org/sourcescan.near/widget/SourceScan',
-        label: 'BOS',
-      },
-    ],
-    screenshots: [],
-  },
-  {
-    name: 'Enode',
-    description:
-      'Enode is an universal encryption node for IPFS that can be used for securing private data on any public blockchain. Enode v1.1 is an improved version of original Enode that was created during ETHGlobal 2023 Scaling Ethereum. This version became more secure by using sign in with ethereum to ensure that data will not be exposed to the third party. Also, supports both encryption of files and json data.',
-    img: '/images/projects/enode.png',
-    socials: [
-      {
-        network: 'sharethis',
-        url: 'https://enode.2bb.dev',
-        label: 'MVP',
-      },
-    ],
-    screenshots: [],
-  },
-  {
-    name: 'Unirecord',
-    description:
-      'Universal health record system that allows patients to store their medical data in a secure and private way. Patients can share their data with doctors and other healthcare providers, and can also choose to monetize their data by sharing it with researchers. Based on Enode v1.1.',
-    img: '/images/projects/unirecord.png',
-    socials: [
-      {
-        network: 'sharethis',
-        url: 'https://unirecord.2bb.dev',
-        label: 'MVP',
+        network: 'github',
+        url: 'https://github.com/near/cargo-near',
+        label: 'cargo-near',
       },
     ],
     screenshots: [],
@@ -115,7 +82,7 @@ const projects: Project[] = [
   {
     name: 'Warp Drive',
     description:
-      'Embark on a thrilling, cross-chain odyssey that pushes the boundaries of blockchain gaming and showcases the might of the Axelar Network! Prepare to wage war across four distinct blockchains, engaging in relentless combat for power and control in a game that is equal parts immersive, secure, and exhilarating. In this epochal struggle, only one chain shall reign supreme.',
+      'Cross-chain strategy game built on Axelar Network where players battle across four blockchains for control and dominance.',
     img: '/images/projects/warpdrive.png',
     socials: [
       {
@@ -139,7 +106,7 @@ const projects: Project[] = [
   {
     name: 'TimePact',
     description:
-      'TimePact allows users to create secure time capsules containing specific data, with an expiration date, that can be unlocked using special NFTs. These NFTs can be easily transferred between accounts and bridged to other blockchains. TimePact was originally created at ETHGlobal 2023 Scaling Ethereum and uses the first version of Enode as a security layer.',
+      'Secure time capsule platform where users lock data with expiration dates, unlockable via transferable NFTs that can be bridged across blockchains.',
     img: '/images/projects/timepact.png',
     socials: [
       {
