@@ -8,10 +8,10 @@ export default function Hackathons() {
   }, {} as Record<string, any>)
   
   return (
-    <section id="hackathons" className="min-h-screen px-4 py-20">
-      <div className="max-w-6xl mx-auto">
-        <div className="brutal-box-blue p-6 mb-12 text-center max-w-md mx-auto">
-          <h2 className="section-header">HACKATHONS</h2>
+    <section id="hackathons" className="px-4 py-20">
+      <div className="max-w-5xl mx-auto">
+        <div className="brutal-box-blue p-6 mb-12 text-center max-w-xs mx-auto">
+          <h2 className="text-2xl font-black">HACKATHONS</h2>
         </div>
         
         <div className="space-y-8">

@@ -2,50 +2,31 @@ import { profiles } from '@/utils/constants/profiles'
 
 export default function Team() {
   return (
-    <section id="team" className="min-h-screen px-4 py-20">
-      <div className="max-w-6xl mx-auto">
-        <div className="brutal-box-blue p-6 mb-12 text-center max-w-md mx-auto">
-          <h2 className="section-header">TEAM</h2>
+    <section id="team" className="px-4 py-20">
+      <div className="max-w-5xl mx-auto">
+        <div className="brutal-box-blue p-6 mb-12 text-center max-w-xs mx-auto">
+          <h2 className="text-2xl font-black">TEAM</h2>
         </div>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {profiles.map((profile, index) => (
             <div key={index} className="group">
-              <div className="brutal-box-sm p-6 group-hover:transform group-hover:-translate-x-1 group-hover:-translate-y-1 group-hover:shadow-[6px_6px_0_0_#000000] transition-all duration-150">
-              <div className="text-center">
-                {profile.img ? (
-                  <img 
-                    src={profile.img} 
-                    alt={profile.name}
-                    className="w-24 h-24 mx-auto mb-4 border-4 border-neo-black"
-                  />
-                ) : (
-                  <div className="w-24 h-24 mx-auto mb-4 bg-neo-lime text-neo-black flex items-center justify-center text-3xl font-bold border-4 border-neo-black">
-                    {profile.name.split(' ').map(n => n[0]).join('')}
-                  </div>
-                )}
-                
-                <h3 className="text-xl font-black mb-1">{profile.name}</h3>
-                <p className="text-sm mb-4 font-bold text-neo-black">{profile.title}</p>
-                
-                <p className="text-xs mb-4 line-clamp-4 leading-relaxed">
-                  {profile.summary}
-                </p>
-                
-                <div className="flex gap-2 flex-wrap justify-center">
-                  {profile.socials.slice(0, 2).map((social, idx) => (
-                    <a
-                      key={idx}
-                      href={social.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-3 py-1 bg-neo-lime text-neo-black text-xs font-bold hover:bg-neo-yellow border-2 border-neo-black transition-all hover:shadow-brutal-sm"
-                    >
-                      {social.label}
-                    </a>
-                  ))}
+              <div className="brutal-box-sm p-5 md:p-6 h-full group-hover:transform group-hover:-translate-x-1 group-hover:-translate-y-1 group-hover:shadow-[6px_6px_0_0_#000000] transition-all duration-150">
+                <div className="text-center flex flex-col h-full">
+                  {profile.img ? (
+                    <img
+                      src={profile.img}
+                      alt={profile.name}
+                      className="w-full aspect-square mx-auto mb-4 border-4 border-neo-black object-cover"
+                    />
+                  ) : (
+                    <div className="w-full aspect-square mx-auto mb-4 border-4 border-neo-black bg-neo-lime flex items-center justify-center text-5xl font-black">
+                      {profile.name[0]}
+                    </div>
+                  )}
+                  <h3 className="text-xl font-black text-neo-black">{profile.name}</h3>
+                  <p className="text-sm text-neo-black mt-2 italic">"{profile.tagline}"</p>
                 </div>
-              </div>
               </div>
             </div>
           ))}
