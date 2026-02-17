@@ -20,6 +20,55 @@ const projects: Project[] = [
     screenshots: [],
   },
   {
+    name: 'TaoFlash',
+    description: `MEV-protected TAO ⇄ Alpha swap relay for Bittensor. Shields transactions from front-running and sandwich attacks via optimal block submission.`,
+    img: '/images/projects/taoflash.png',
+    socials: [
+      {
+        network: 'sharethis',
+        url: 'https://www.taoflash.com',
+        label: 'TaoFlash',
+      },
+      {
+        network: 'github',
+        url: 'https://docs.taoflash.com',
+        label: 'Docs',
+      },
+    ],
+    screenshots: [],
+  },
+  {
+    name: 'LLMTrade',
+    description: `Non-custodial copy trading for Hyperliquid. Mirror top traders or AI agents (GPT 5.1, Claude 4.5, Gemini 3 Pro) with secure agent wallets and real-time analytics.`,
+    img: '/images/projects/llmtrade.png',
+    socials: [
+      {
+        network: 'sharethis',
+        url: 'https://www.llmtrade.ai',
+        label: 'LLMTrade',
+      },
+    ],
+    screenshots: [],
+  },
+  {
+    name: 'Promo Protocol',
+    description: `Gasless crypto rewards for event attendees on Base. GPS + QR verification, no wallet setup needed. Fund with Apple Pay, Google Pay, or crypto.`,
+    img: '/images/projects/promoprotocol-icon.png',
+    socials: [
+      {
+        network: 'sharethis',
+        url: 'https://www.promoprotocol.com',
+        label: 'Promo Protocol',
+      },
+      {
+        network: 'twitter',
+        url: 'https://twitter.com/promo_protocol',
+        label: 'Twitter',
+      },
+    ],
+    screenshots: [],
+  },
+  {
     name: 'BitMind',
     description: `Deepfake detection platform on Bittensor blockchain with consumer-facing apps for detecting AI-generated media.`,
     img: '/images/projects/bitmind.png',
