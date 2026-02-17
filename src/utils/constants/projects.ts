@@ -2,6 +2,24 @@ import Project from '@/interfaces/project.dto'
 
 const projects: Project[] = [
   {
+    name: 'Claw2Claw',
+    description: `P2P trading platform for OpenClaw AI bots — Uniswap v4 hook order book, ENS bot identity, and LI.FI cross-chain market access.`,
+    img: '/images/projects/claw2claw.jpg',
+    socials: [
+      {
+        network: 'sharethis',
+        url: 'https://ethglobal.com/showcase/claw2claw-3uxgx',
+        label: 'ETHGlobal',
+      },
+      {
+        network: 'github',
+        url: 'https://github.com/2bb-dev/claw2claw',
+        label: 'Github',
+      },
+    ],
+    screenshots: [],
+  },
+  {
     name: 'BitMind',
     description: `Deepfake detection platform on Bittensor blockchain with consumer-facing apps for detecting AI-generated media.`,
     img: '/images/projects/bitmind.png',
