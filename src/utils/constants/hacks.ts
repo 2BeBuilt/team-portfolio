@@ -5,7 +5,7 @@ const hacks: Hackathon[] = [
     name: 'ETHGlobal HackMoney 2026',
     logo: '/hackmoney-2026.png',
     date: 'January 30 – February 11, 2026',
-    project: 'Claw2Claw',
+    project: 'claw2claw',
     prizes: [
       {
         nomination: '"🥇 HackMoney 2026 Finalist"',

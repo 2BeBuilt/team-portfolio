@@ -2,7 +2,7 @@ import Project from '@/interfaces/project.dto'
 
 const projects: Project[] = [
   {
-    name: 'Claw2Claw',
+    name: 'claw2claw',
     description: `P2P trading platform for OpenClaw AI bots — Uniswap v4 hook order book, ENS bot identity, and LI.FI cross-chain market access.`,
     img: '/images/projects/claw2claw.jpg',
     socials: [
@@ -20,7 +20,7 @@ const projects: Project[] = [
     screenshots: [],
   },
   {
-    name: 'TaoFlash',
+    name: 'taoflash',
     description: `MEV-protected TAO ⇄ Alpha swap relay for Bittensor. Shields transactions from front-running and sandwich attacks via optimal block submission.`,
     img: '/images/projects/taoflash.png',
     socials: [
