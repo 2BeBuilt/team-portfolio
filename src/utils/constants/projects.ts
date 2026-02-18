@@ -27,7 +27,7 @@ const projects: Project[] = [
       {
         network: 'sharethis',
         url: 'https://www.taoflash.com',
-        label: 'TaoFlash',
+        label: 'taoflash',
       },
       {
         network: 'github',
