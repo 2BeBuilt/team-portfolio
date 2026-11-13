@@ -2,6 +2,24 @@ import Project from '@/interfaces/project.dto'
 
 const projects: Project[] = [
   {
+    name: 'OpenOrange',
+    description: `Now building. A private AI agent workspace for teams: your own server where people and agents work together, every agent on its own machine, every model behind one API.`,
+    img: '/images/projects/openorange.png',
+    socials: [
+      {
+        network: 'sharethis',
+        url: 'https://openorange.ai',
+        label: 'openorange.ai',
+      },
+      {
+        network: 'twitter',
+        url: 'https://x.com/OpenOrangeAI',
+        label: 'Twitter',
+      },
+    ],
+    screenshots: [],
+  },
+  {
     name: 'claw2claw',
     description: `P2P trading platform for OpenClaw AI bots — Uniswap v4 hook order book, ENS bot identity, and LI.FI cross-chain market access.`,
     img: '/images/projects/claw2claw.jpg',
