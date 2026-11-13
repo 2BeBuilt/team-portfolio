@@ -14,7 +14,7 @@ const projects: Project[] = [
       {
         network: 'twitter',
         url: 'https://x.com/OpenOrangeAI',
-        label: 'Twitter',
+        label: 'X',
       },
     ],
     screenshots: [],
