@@ -106,7 +106,7 @@ const hacks: Hackathon[] = [
     socials: [
       {
         network: 'twitter',
-        url: 'https://twitter.com/easya_app/status/1642623297052618752?s=46&t=wWGh6aBdBOA2phlNMj_ZFQ',
+        url: 'https://x.com/easya_app/status/1642623297052618752?s=46&t=wWGh6aBdBOA2phlNMj_ZFQ',
         label: 'EasyA',
       },
       {
