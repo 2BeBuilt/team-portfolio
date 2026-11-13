@@ -80,8 +80,8 @@ const projects: Project[] = [
       },
       {
         network: 'twitter',
-        url: 'https://twitter.com/promo_protocol',
-        label: 'Twitter',
+        url: 'https://x.com/promo_protocol',
+        label: 'X',
       },
     ],
     screenshots: [],
@@ -172,7 +172,7 @@ const projects: Project[] = [
     socials: [
       {
         network: 'twitter',
-        url: 'https://twitter.com/easya_app/status/1642623297052618752?s=46&t=wWGh6aBdBOA2phlNMj_ZFQ',
+        url: 'https://x.com/easya_app/status/1642623297052618752?s=46&t=wWGh6aBdBOA2phlNMj_ZFQ',
         label: 'EasyA',
       },
       {
